@@ -1,0 +1,69 @@
+.page_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  min-width: 280px;
+
+  height: 76px;
+}
+.page_header__artist_name {
+  align-self: center;
+  margin: 0px;
+  padding: 6px 0px 0px;
+  font-family: NeueHaasMedium;
+  font-size: 20px;
+  font-style: normal;
+  color: rgb(18, 18, 18);
+  opacity: 1;
+  transition: opacity 0.2s ease 0s;
+}
+.page_header__inline_menu {
+  display: flex;
+  align-self: flex-end;
+}
+.page_header__inline_menu__item {
+  margin-left: 46px;
+  line-height: 28px;
+
+  position: relative;
+
+  font-family: NeueHaasLight;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  line-height: 60px;
+  transition: width 0.3s ease 0s, right 0.3s ease 0s;
+
+  &:hover {
+    color: rgb(255, 91, 0);
+  }
+}
+.page_header__inline_menu__item--selected {
+  font-family: NeueHaasMedium;
+  font-weight: 500;
+
+  color: rgb(255, 91, 0);
+  &::after {
+    content: '';
+    position: absolute;
+
+    left: 0px;
+    width: 100%;
+    height: 4px;
+    background-color: rgb(255, 91, 0);
+    bottom: 0;
+  }
+}
+
+a,
+a:visited,
+a:hover,
+a:link {
+  color: black;
+  text-decoration: none;
+}
+@media screen and (min-width: 769px) {
+  .page_header {
+    border-bottom: 1px solid rgb(207, 214, 222);
+  }
+}

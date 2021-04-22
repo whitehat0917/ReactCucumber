@@ -1,0 +1,35 @@
+.h2 {
+  margin: 0px 0px 24px;
+
+  width: 100%;
+  font-family: NeueHaasUnicaHeavy;
+  font-size: 48px;
+  color: rgb(18, 18, 18);
+}
+
+a {
+  font-style: normal;
+  text-decoration: none;
+}
+.h1 {
+  font-family: NeueHaasUnicaHeavy;
+  font-size: 36px;
+  color: rgb(18, 18, 18);
+  line-height: 44px;
+}
+
+.h1__skeleton {
+  max-width: 350px;
+}
+.h2__skeleton,
+.h3__skeleton,
+.h4__skeleton,
+.h5__skeleton,
+.h6__skeleton {
+  max-width: 250px;
+}
+h3 {
+  font-family: NeueHaasMedium;
+  font-size: 24px;
+  font-weight: 500;
+}

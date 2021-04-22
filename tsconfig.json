@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": "./src",
+        "rootDir": "./",
+        "jsx": "react",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noEmit": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "pretty": true,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "paths": {
+            "@components/*": ["src/components/*"],
+            "@features/*": ["src/features/*"]
+        },
+        "plugins": [{
+            "name": "typescript-styled-plugin",
+            "tags": [
+                "styled",
+                "css",
+                "sty"]
+            }]
+    },
+    "exclude": ["node_modules", "**/node_modules/*"]
+}

@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'NeueHaasUnica';
+  src: url('../assets/fonts/NeueHaasUnica.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NeueHaasUnicaHeavy';
+  src: url('../assets/fonts/NeueHaasUnicaHeavy.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NeueHaasBlack';
+  src: url('../assets/fonts/NeueHaasUnicaW06-Black.eot');
+  src: url('../assets/fonts/NeueHaasUnicaW06-Black.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/NeueHaasUnicaW06-Black.woff2') format('woff2'),
+    url('../assets/fonts/NeueHaasUnicaW06-Black.woff') format('woff'),
+    url('../assets/fonts/NeueHaasUnicaW06-Black.ttf') format('truetype'),
+    url('../assets/fonts/NeueHaasUnicaW06-Black.svg#NeueHaasUnicaW06-Black') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NeueHaasBold';
+  src: url('../assets/fonts/NeueHaasUnicaW06-Bold.eot');
+  src: url('../assets/fonts/NeueHaasUnicaW06-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/NeueHaasUnicaW06-Bold.woff2') format('woff2'),
+    url('../assets/fonts/NeueHaasUnicaW06-Bold.woff') format('woff'),
+    url('../assets/fonts/NeueHaasUnicaW06-Bold.ttf') format('truetype'),
+    url('../assets/fonts/NeueHaasUnicaW06-Bold.svg#NeueHaasUnicaW06-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NeueHaasHeavy';
+  src: url('../assets/fonts/NeueHaasUnicaW06-Heavy.eot');
+  src: url('../assets/fonts/NeueHaasUnicaW06-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/NeueHaasUnicaW06-Heavy.woff2') format('woff2'),
+    url('../assets/fonts/NeueHaasUnicaW06-Heavy.woff') format('woff'),
+    url('../assets/fonts/NeueHaasUnicaW06-Heavy.ttf') format('truetype'),
+    url('../assets/fonts/NeueHaasUnicaW06-Heavy.svg#NeueHaasUnicaW06-Heavy') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NeueHaasLight';
+  src: url('../assets/fonts/NeueHaasUnicaW06-Light.eot');
+  src: url('../assets/fonts/NeueHaasUnicaW06-Light.eot?#iefix') format('embedded-opentype'),
+    url('../assets/fonts/NeueHaasUnicaW06-Light.woff2') format('woff2'),
+    url('../assets/fonts/NeueHaasUnicaW06-Light.woff') format('woff'),
+    url('../assets/fonts/NeueHaasUnicaW06-Light.ttf') format('truetype'),
+    url('../assets/fonts/NeueHaasUnicaW06-Light.svg#NeueHaasUnicaW06-Light') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NeueHaasMedium';
+  src: url('../assets/fonts/NeueHaasUnicaW06Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}

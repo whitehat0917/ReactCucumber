@@ -1,0 +1,64 @@
+.collection_cell__artworks_container{
+    display: grid;
+    grid-template:1fr 1fr / 1fr 1fr ;
+    
+    overflow: hidden;
+    border-radius: 12px;
+    gap: 4%;
+    ::after {
+        content: "";
+        padding-bottom: 100%;
+        display: block;
+      }
+
+}
+
+.collection_cell__artworks_container__thumbnail{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+.collections_table{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(120px, 250px) );
+    
+
+    column-gap: 23px;
+    row-gap: 64px;
+    
+}
+.collection_cell{
+    cursor: pointer;
+}
+.collection_cell__artwork_title{
+    font-style: normal;
+    line-height: 1.8125rem;
+    letter-spacing: normal;
+    text-align: inherit;
+    white-space: normal;
+    margin: 17px 0px 4px;
+    font-family: NeueHaasLight;
+    font-size: 24px;
+    font-weight: 300;
+    color: rgb(18, 18, 18);
+}
+.collection_cell__artwork_legend{
+    font-family: NeueHaasLight;
+    font-size: 16px;
+    color: rgb(145, 145, 145); 
+}
+
+
+@media screen and (max-width: 1023px){
+    .collection_cell__artwork_title {
+        font-family: NeueHaasMedium;
+        font-weight: 500;
+    }
+}
+
+.collections_table__skeleton__item{
+    padding-bottom: 50%;
+}

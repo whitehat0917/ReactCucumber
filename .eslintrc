@@ -1,0 +1,35 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb"
+  ],
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "globals": {
+    "__DEV__": true,
+    "__PROD__": true,
+    "__DEBUG__": true,
+    "__COVERAGE__": true,
+    "__BASENAME__": true
+  },
+  "rules": {
+    "global-require": 0,
+    "react/jsx-filename-extension": [2, {"extensions": [".js", ".jsx"]}],
+    "react/jsx-one-expression-per-line": [1, { "allow": "single-child"}],
+    "import/no-extraneous-dependencies": 0,
+    "react/require-default-props": 0,
+    "react/destructuring-assignment": 0,
+    "arrow-parens": [2, "always"],
+    "import/prefer-default-export": 0,
+    "react/forbid-prop-types": 0,
+    "max-len": 0,
+    "import/no-unresolved": [
+      "error",
+      {
+        "ignore": ["components", "atoms", "molecules", "organisms", "pages", "templates", "themes", "containers", "constants", "store", "config", "services", "utils"]
+      }
+    ]
+  }
+}

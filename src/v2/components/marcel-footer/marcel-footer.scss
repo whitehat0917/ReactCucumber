@@ -1,0 +1,73 @@
+.apple_install_button {
+  width: 8.43rem;
+  height: 2.75rem;
+  border-radius: 7px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background-color: black;
+}
+.apple_install_button__apple_image {
+  height: 1.75rem;
+  object-fit: contain;
+  width: 1.75rem;
+  vertical-align: sub;
+  cursor: pointer !important;
+}
+.apple_install_button__text {
+  margin-left: 0.65rem;
+}
+.apple_install_button__text__1 {
+  display: block;
+  height: 0.46rem;
+  width: 5.25rem;
+  margin-bottom: 0.325rem;
+  object-fit: contain;
+  vertical-align: sub;
+  cursor: pointer !important;
+}
+.apple_install_button__text__2 {
+  display: block;
+  height: 1.0625rem;
+  width: 5.25rem;
+  object-fit: contain;
+  vertical-align: sub;
+  cursor: pointer !important;
+}
+.app_footer__logo {
+  flex-basis: 3.2rem;
+  margin-right: 2%;
+}
+.app_footer__logo__image {
+  height: 3.2rem;
+  object-fit: contain;
+  width: 3.2rem;
+  vertical-align: sub;
+  cursor: pointer !important;
+}
+
+.app_footer {
+  display: flex;
+  align-items: center;
+}
+
+.app_footer__links {
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+.app_footer__links__link,
+.app_footer__links__copyright {
+  font-size: 13px;
+  color: rgb(145, 145, 145) !important;
+  text-decoration: none;
+}
+@media screen and (min-width: 769px) {
+  .app_footer__links__link,
+  .app_footer__links__copyright {
+    margin: 0px 28px 0px 0px;
+  }
+}

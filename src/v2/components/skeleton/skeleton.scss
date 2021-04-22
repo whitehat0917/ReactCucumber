@@ -1,0 +1,12 @@
+.skeleton{
+    min-height: 30px;
+    height: 44px;
+    background: linear-gradient(-90deg, rgb(240, 240, 240) 0%, rgb(248, 248, 248) 50%, rgb(240, 240, 240) 100%) 0% 0% / 400% 400%;
+    animation: 1.2s ease-in-out 0s infinite normal none running pulse;
+    border-radius: 5px;
+}
+
+.skeleton__list_item{
+    margin-bottom: 16px;
+    max-width: 250px;
+}

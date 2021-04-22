@@ -1,0 +1,10 @@
+dist
+*.log
+node_modules
+.idea/
+.env
+webpack-compiled.config.js
+*.DS_Store
+jsconfig.json
+env_configs/*
+env_configs/config.development.js
